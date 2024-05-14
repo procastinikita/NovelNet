@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+}
+img {
+  width: 100%;
+
+  height: auto;
+
+  display: block;
+}
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+.feature-text {
+  font-weight: bold;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  border-radius: 100%;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.lame {
+  margin-right: 10px; /* Adjust distance between icon and button */
+  vertical-align: middle;
+}
+
+.cursive{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+.press-logo {
+  width: 30%;
+  margin: 20px 20px 50px;
+}
+
+*/
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-container {
+  display: flex;
+  justify-items: center;
+}
+
+.press-item {
+  margin: 0 10px; /* Adjust spacing between items */
+  text-align: center; /* Center-align content */
+}
+
+.press-logo {
+  width: 50%; /* Make images fill their container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.press-title {
+  margin-top: 10px; /* Space between image and title */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+}
+#cta {
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
